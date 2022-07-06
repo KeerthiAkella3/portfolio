@@ -95,35 +95,14 @@ export const info = {
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
-        {
-            title: "Twitter Simulation",
-            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/KeerthiAkella3/AAKKS", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: ""
-        },
-        {
-            title: "Intelligent Routing System - Customer Support",
-            live: "",
-            source: "https://github.com/KeerthiAkella3/IRS_CS",
-            image: ""
-        },
-        {
-            title: "Recommendation System for Venture Capitalists",
-            live: "",
-            source: "https://github.com/KeerthiAkella3/Recommendation-System-for-VCs-Investment",
-            image: ""
-        },
-
-    ],
-
         Experience:[
             {
             label: 'Software Engineer 2',
-            details: `Working with the Credit Servicing team, that leads to re-invent legacy products within Pay Later suite, adapt and
-            deploy long term installments and Global Pay Later products in certain international markets. Contributed to
-            installment products and was part of designing and implementing Pay in 30 days product for Germany. Designed
-            and contributed to the snooze feature, a novel feature for PayPal credit products.`
+            details: `Working with the Credit(Buy Now Pay Later) Servicing team, 
+            leads to re-invent legacy products within the Pay Later suite, adapting and deploying long-term installments 
+            the Global Pay Later products in certain international markets. 
+            Contributed to installment products and was part of implementing Payment after 30 days product in Germany. 
+            Designed and contributed to the snooze feature that allows customers to delay the payment of installments.`
             },
 
         {
