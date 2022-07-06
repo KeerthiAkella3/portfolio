@@ -35,6 +35,10 @@ export default function About() {
             </ul>
         </>;
     }
+    const onclickf = (image) => {
+        return window.open(image,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1090px, height=550px, top=25px left=120px'); 
+        
+    }
 
     function miscText() {
         return <>
@@ -44,7 +48,9 @@ export default function About() {
                 className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
                 {info.hobbies.map(hobby => (
-                    <li><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                    <li><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>
+                    the latest <a href={hobby.image}> {hobby.label}</a> 
+                    </li> 
                 ))}
             </ul>
         </>;

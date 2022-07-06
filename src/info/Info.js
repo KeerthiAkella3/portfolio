@@ -1,4 +1,8 @@
 import self from "../img/self.png"
+import joke from "../img/joke.png"
+import painting from "../img/paint.png"
+import hiking from "../img/hiking.png"
+import movie from "../img/movie.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -68,7 +72,9 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Keerthi. I graduated with a Master’s degree in Software Engineering from San Jose State University. I am a creative individual, with an objective of lifelong learning and seeking new opportunities to grow professionally and as a person.",
+    bio: `Hello! I'm Keerthi. I graduated with a Master’s degree in Software Engineering from San Jose State University. 
+    I am a creative individual, with an objective of lifelong learning and seeking new opportunities to grow professionally and as a person.
+    `,
     skills:
         {
             proficientWith: ['javascript', 'react', 'nodeJS', 'expressJS', 'bootstrap', 'html5', 'css3', 'java', 'C++'],
@@ -78,19 +84,23 @@ export const info = {
     hobbies: [
         {
             label: 'painting',
-            emoji: '🎨'
+            emoji: '🎨',
+            image: painting
         },
         {
             label: 'movies',
-            emoji: '🎥'
+            emoji: '🎥',
+            image:movie
         },
         {
             label: 'devJokes',
-            emoji: '🙃'
+            emoji: '🙃',
+            image: joke
         },
         {
             label: 'hiking',
-            emoji: '🥾'
+            emoji: '🥾',
+            image: hiking
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
