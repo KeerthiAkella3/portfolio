@@ -23,15 +23,15 @@ export default function BaseLayout() {
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>
+                  <Route path="*" element={<Home/>} />
                   <Route exact path={'/'} element={<Home/>}/>
                   <Route exact path={'/about'} element={<About/>}/>
-                  
                </Routes>
             </Grid>
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.4}} width={'100%'}>
-                  <p> &hearts; <a href={''}>Keerthi Akella</a></p>
+                  <p> &hearts; Keerthi Akella</p>
                   <p>&copy; 2022</p>
                </Box>
             </Grid>
